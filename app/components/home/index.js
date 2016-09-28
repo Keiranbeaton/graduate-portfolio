@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = function(app) {
-  app.component('home', {
+  app.component('kbHome', {
     templateUrl: './home-template.html'
   });
 };

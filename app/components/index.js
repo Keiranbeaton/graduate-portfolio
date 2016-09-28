@@ -3,5 +3,5 @@
 module.exports = function(app) {
   require('./home')(app);
   require('./about')(app);
-  require('./projects')(app);
+  require('./portfolio')(app);
 };
