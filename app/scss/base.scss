@@ -1,0 +1,9 @@
+@import "vendor/bootstrap-stylesheets/_bootstrap.scss";
+@import "vendor/font-awesome-4.6.3/scss/font-awesome.scss";
+@import "vendor/normalize-scss/sass/_normalize.scss";
+@import "_themes";
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
