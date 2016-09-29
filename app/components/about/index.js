@@ -1,7 +1,6 @@
 'use strict';
 
-module.exports = function(app) {
-  app.component('kbAbout', {
-    templateUrl: './about-template.html'
-  });
+module.exports = (app) => {
+  require('./about-controller')(app);
+  require('./about-directive')(app);
 };
