@@ -1,11 +1,11 @@
 'use strict';
 
-module.exports = function(app) {
+module.exports = (app) => {
   app.directive('kbAbout', function() {
     return {
       restrict: 'EAC',
       controller: 'AboutController',
-      templateUrl: './about-template.html',
+      template: require('./about-template.html'),
       bindToController: true,
       scope: {}
     };

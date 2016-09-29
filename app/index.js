@@ -4,7 +4,8 @@ require('!!file?name=[name].[ext]!./html/index.html');
 require('./scss/base.scss');
 
 const angular = require('angular');
-const portfolioApp = angular.module('portfolioApp', [require('angular-route')]);
+const angularRoute = require('angular-route');
+const portfolioApp = angular.module('portfolioApp', [angularRoute]);
 
 require('./components')(portfolioApp);
 

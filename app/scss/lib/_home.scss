@@ -1,0 +1,25 @@
+kb-home {
+  text-align: center;
+  font-family: 'Baloo Bhai', cursive;
+  color: $kb-text;
+}
+
+div.home > h3 {
+  color: $kb-color3;
+}
+
+ul.home {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.home > li {
+  display: inline-block;
+}
+
+ul.home > li > a {
+  color: $kb-text;
+  margin-left: 5px;
+  margin-right: 5px;
+}

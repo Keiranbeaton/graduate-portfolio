@@ -1,7 +1,11 @@
 'use strict';
 
-module.exports = function(app) {
-  app.component('kbHome', {
-    templateUrl: './home-template.html'
+module.exports = (app) => {
+  app.directive('kbHome', function() {
+    return {
+      restrict: 'EAC',
+      template: require('./home-template.html'),
+      scope: {}
+    };
   });
 };
