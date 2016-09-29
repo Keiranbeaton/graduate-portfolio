@@ -6,6 +6,11 @@ kb-home {
 
 div.home > h3 {
   color: $kb-color3;
+  font-size: 40px;
+}
+
+div.home > h1 {
+  font-size: 60px;
 }
 
 ul.home {
@@ -22,4 +27,8 @@ ul.home > li > a {
   color: $kb-text;
   margin-left: 5px;
   margin-right: 5px;
+}
+
+ul.home > li > a:hover, ul.home > li > a:focus {
+  color: $kb-color3;
 }

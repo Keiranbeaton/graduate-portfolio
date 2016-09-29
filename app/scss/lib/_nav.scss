@@ -1,5 +1,6 @@
 .navbar-default {
   background-color: $kb-color3;
+  border-color: $kb-color2;
 }
 
 .navbar-default .navbar-brand {
@@ -15,5 +16,30 @@
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: $kb-text;
+}
+
+footer {
+  position: absolute;
+  margin: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: $kb-color3;
+  border: solid thin $kb-color2;
+  border-radius: 4px;
+  min-height: 50px;
+  vertical-align: middle;
+}
+
+footer .container {
+  padding-top: 15px;
+  text-align: center;
+}
+
+.kb-footer-text {
+  color: $kb-color2;
+}
+
+a.kb-footer-text:hover, a.kb-footer-text:focus {
   color: $kb-text;
 }
