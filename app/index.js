@@ -15,7 +15,7 @@ portfolioApp.config(['$routeProvider', ($rp) => {
     template: require('./html/home.html')
   })
   .when('/portfolio', {
-    template: require('./html/projects.html')
+    template: require('./html/portfolio.html')
   })
   .when('/about', {
     template: require('./html/about.html')
