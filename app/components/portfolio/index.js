@@ -1,7 +1,7 @@
 'use strict';
 
-module.exports = function(app) {
-  app.component('kbPortfolio', {
-    templateUrl: './portfolio-template.html'
-  });
+module.exports = (app) => {
+  require('./projects')(app);
+  require('./portfolio-controller')(app);
+  require('./portfolio-directive')(app);
 };
