@@ -7,8 +7,7 @@ module.exports = (app) => {
       controller: 'PortfolioController',
       controllerAs: 'portCtrl',
       bindToController: true,
-      template: require('./portfolio-template.html'),
-
+      template: require('./portfolio-template.html')
     };
   });
 };

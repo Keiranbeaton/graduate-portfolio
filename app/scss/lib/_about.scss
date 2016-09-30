@@ -1,7 +1,7 @@
 div.about > h1 {
   color: $kb-text;
   text-align: center;
-  font-family: 'Baloo Bhai', cursive;
+  font-family: 'Ramabhadra', sans-serif;
 }
 
 article.about {
@@ -9,8 +9,8 @@ article.about {
   height: 100%;
   margin: 0;
   background-color: $kb-text;
-  border-top: solid medium $kb-color2;
-  border-bottom: solid medium $kb-color2;
+  border-top: solid medium $kb-color1;
+  border-bottom: solid medium $kb-color1;
   border-radius: 4px;
   padding-top: 10px;
   color: $kb-text2;
@@ -38,7 +38,7 @@ img {
 }
 
 a.about {
-  color: $kb-primary;
+  color: $kb-color1;
 }
 
 a.about:hover, a.about:focus {
@@ -47,5 +47,5 @@ a.about:hover, a.about:focus {
 }
 
 i.fa-envelope {
-  color: $kb-primary;
+  color: $kb-color1;
 }

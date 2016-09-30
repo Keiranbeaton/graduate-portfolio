@@ -1,16 +1,17 @@
 kb-home {
   text-align: center;
-  font-family: 'Baloo Bhai', cursive;
+  font-family: 'Ramabhadra', sans-serif;
   color: $kb-text;
 }
 
 div.home > h3 {
-  color: $kb-color3;
+  color: $kb-color1;
   font-size: 40px;
 }
 
 div.home > h1 {
   font-size: 60px;
+  color: $kb-text;
 }
 
 ul.home {
@@ -30,5 +31,5 @@ ul.home > li > a {
 }
 
 ul.home > li > a:hover, ul.home > li > a:focus {
-  color: $kb-color3;
+  color: $kb-color1;
 }
