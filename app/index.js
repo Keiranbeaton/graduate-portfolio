@@ -20,6 +20,9 @@ portfolioApp.config(['$routeProvider', ($rp) => {
   .when('/about', {
     template: require('./html/about.html')
   })
+  .when('/portfolio/:displayName',  {
+    template: require('./html/projects.html')
+  })
   .otherwise({
     redirectTo: 'home'
   });

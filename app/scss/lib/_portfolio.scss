@@ -2,16 +2,45 @@ div.portfolio {
   text-align: center;
 }
 
-li.portfolio {
-  height: 200px;
-  width: 400px;
+div.portfolio > h1 {
+  color: $kb-color1;
+  text-align: center;
+  font-family: 'Ramabhadra', sans-serif;
+  margin-top: -5%;
+  margin-bottom: 5%;
+  font-size: 40px;
 }
 
-img.portfolio {
-  height: 100%;
-  width: 100%;
-}
 
 ul.portfolio {
   background-color: $kb-text;
+  border: solid medium $kb-color1;
+  border-radius: 4px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  list-style-type: none;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+ul.portfolio > a {
+  display: inline-block;
+  text-align: left;
+  margin-right: 3%;
+  margin-left: 3%;
+}
+
+ul.portfolio > a > li {
+  height: 150px;
+  width: 150px;
+  padding-top: 30px;
+  text-align: center;
+  vertical-align: middle;
+  border: solid thin $kb-color1;
+  border-radius: 4px;
+}
+
+ul.portfolio > a:hover {
+  color: $kb-text;
+  text-decoration: underline;
 }
