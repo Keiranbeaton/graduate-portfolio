@@ -1,11 +1,68 @@
-a.dsr {
-  background-color: $kb-dsr-background;
-  color: $kb-dsr-text;
-  font-family: 'Audiowide', cursive;
+div.projects > h1 {
+  color: $kb-color1;
+  text-align: center;
+  font-family: 'PT Sans Narrow', sans-serif;
+  margin-top: -5%;
+  margin-bottom: 5%;
+  font-size: 40px;
 }
 
-a.sm {
-  background-color: $kb-sm-background;
-  color: $kb-sm-text;
-  font-family: Arial;
+article.projects {
+  width: 100%;
+  height: 100%;
+  padding-left: 15%;
+  padding-right: 15%;
+  margin: 0;
+  background-color: $kb-text;
+  border: solid medium $kb-color1;
+  border-radius: 4px;
+  padding-top: 10px;
+  color: $kb-text2;
+  font-family: 'Noto Sans', sans-serif;
+  text-align: center;
+}
+
+article.projects > ul {
+  padding: 0;
+}
+
+section.project-text {
+  display: inline-block;
+  max-width: 70%;
+  margin-right: 5%;
+  border-right: solid thin $kb-color1;
+}
+
+section.project-text > h3 {
+  color: $kb-color3;
+}
+
+section.project-text > p {
+  text-align: left;
+}
+
+section.project-info {
+  display: inline-block;
+  max-width: 24%;
+}
+
+section.project-info > p {
+  text-align: right;
+}
+
+img.projects {
+  border: solid thin $kb-color1;
+  max-width: 100%;
+  vertical-align: top;
+  text-align: center;
+  margin-top: 10px;
+}
+
+section.project-info > p > a {
+  color: $kb-color1;
+}
+
+section.project-info > p > a:hover, section.project-info > p > a:focus {
+  color: $kb-color3;
+  text-decoration: none;
 }

@@ -1,18 +1,30 @@
-<div class="project" ng-init="projCtrl.findProject(projCtrl.route)">
-  <h1 class="project">PORTFOLIO</h1>
-  <div class="project">
-    <h3>{{projCtrl.project.name}}</h3>
-    <img ng-src="{{projCtrl.project.imageMain}}"/>
-    <h6>{{projCtrl.project.title}}</h6>
-    <img ng-src="{{projCtrl.project.imageSecondary}}"/>
-    <p>{{projCtrl.project.description}}</p>
-    <p>
-      Find project on the web:
-      <a href="{{projCtrl.project.url}}" class="about"><i class="fa fa-desktop fa-1x"></i></a>
-    </p>
-    <p>
-      Find Project on github:
-      <a href="{{projCtrl.project.githubUrl}}" class="about"><i class="fa fa-github-square fa-1x"></i></a>
-    </p>
-  </div>
+<div class="projects" ng-init="projCtrl.findProject(projCtrl.route)">
+  <h1 class="projects">PORTFOLIO</h1>
+  <article class="projects">
+    <section class="project-container">
+      <section class="project-text">
+        <h3>{{projCtrl.project.name}}</h3>
+        <h6>{{projCtrl.project.title}}</h6>
+        <p>{{projCtrl.project.description}}</p>
+      </section>
+      <section class="project-info">
+        <p>
+          Find project on the web:
+          <a href="{{projCtrl.project.url}}" target="_blank"><i class="fa fa-desktop fa-1x"></i></a>
+        </p>
+        <p>
+          Find Project on github:
+          <a href="{{projCtrl.project.githubUrl}}" target="_blank"><i class="fa fa-github-square fa-1x"></i></a>
+        </p>
+      </section>
+    </section>
+    <ul>
+      <li ng-repeat="image in projCtrl.project.images">
+        <img ng-src="{{image.url}}" class="projects"/>
+        <p>
+          {{image.text}}
+        </p>
+      </li>
+    </ul>
+  </article>
 </div>

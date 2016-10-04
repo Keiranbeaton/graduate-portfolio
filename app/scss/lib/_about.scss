@@ -20,7 +20,7 @@ article.about {
   text-align: center;
 }
 
-section {
+section.about {
   max-width: 35%;
   margin-left: 5%;
   margin-right: 5%;
@@ -28,11 +28,11 @@ section {
   vertical-align: top;
 }
 
-section > p {
+section.about > p {
   text-align: left;
 }
 
-img {
+img.about {
   max-width: 70%;
   max-height: 70%;
   vertical-align: top;
