@@ -10,7 +10,7 @@ const portfolioApp = angular.module('portfolioApp', [angularRoute]);
 require('./components')(portfolioApp);
 
 portfolioApp.run(['$rootScope', function($rootScope) {
-  $rootScope.projects = require('../assets/projects.js');
+  $rootScope.projects = require('./assets/projects.js');
 }]);
 
 portfolioApp.config(['$routeProvider', ($rp) => {
@@ -25,7 +25,8 @@ portfolioApp.config(['$routeProvider', ($rp) => {
     template: require('./html/about.html')
   })
   .when('/portfolio/:displayName',  {
-    template: require('./html/projects.html')
+    template: require('./html/projects.html'),
+    controller: 'ProjectsController'
   })
   .otherwise({
     redirectTo: 'home'
