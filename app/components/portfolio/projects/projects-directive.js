@@ -7,10 +7,7 @@ module.exports = (app) => {
       controller: 'ProjectsController',
       controllerAs: 'projCtrl',
       bindToController: true,
-      template: require('./portfolio-template.html'),
-      scope: {
-
-      }
+      template: require('./projects-template.html')
     };
   });
 };

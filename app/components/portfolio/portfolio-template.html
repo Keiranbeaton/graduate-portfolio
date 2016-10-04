@@ -1,14 +1,9 @@
 <div class="portfolio">
   <h1 class="portfolio">PORTFOLIO</h1>
   <ul class="portfolio">
-    <a href="#/portfolio/dont-stop-retrievin">
-      <li class="dsr">
-        <h3 class="dsr">Don't Stop Retrievin'</h3>
-      </li>
-    </a>
-    <a href="#/portfolio/sports-messenger">
-      <li class="sm">
-        <h3 class="sm">Sports Messenger</h3>
+    <a ng-repeat="item in portCtrl.projectArray" href="#/portfolio/{{item.displayName}}" class="{{item.displayName}}">
+      <li>
+        <h4>{{item.name}}</h4>
       </li>
     </a>
   </ul>

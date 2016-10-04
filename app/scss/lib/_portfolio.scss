@@ -5,7 +5,7 @@ div.portfolio {
 div.portfolio > h1 {
   color: $kb-color1;
   text-align: center;
-  font-family: 'Ramabhadra', sans-serif;
+  font-family: 'PT Sans Narrow', sans-serif;
   margin-top: -5%;
   margin-bottom: 5%;
   font-size: 40px;
@@ -21,26 +21,33 @@ ul.portfolio {
   list-style-type: none;
   padding-left: 10%;
   padding-right: 10%;
+  text-align: left;
 }
 
 ul.portfolio > a {
   display: inline-block;
   text-align: left;
-  margin-right: 3%;
-  margin-left: 3%;
+  margin-right: 4%;
+  vertical-align: middle;
 }
 
 ul.portfolio > a > li {
+  padding-top: 30px;
   height: 150px;
   width: 150px;
-  padding-top: 30px;
   text-align: center;
-  vertical-align: middle;
   border: solid thin $kb-color1;
   border-radius: 4px;
 }
 
-ul.portfolio > a:hover {
-  color: $kb-text;
-  text-decoration: underline;
+a.sports-messenger {
+  color: $kb-sm-text;
+  background-color: $kb-sm-background;
+  font-family: Arial;
+}
+
+a.dont-stop-retrievin {
+  color: $kb-dsr-text;
+  background-color: $kb-dsr-background;
+  font-family: 'Audiowide', cursive;
 }
