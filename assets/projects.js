@@ -7,7 +7,7 @@ module.exports = [{
   displayName: 'dont-stop-retrievin',
   url: 'https://dont-stop-retrieving.herokuapp.com/',
   githubUrl: 'https://github.com/Keiranbeaton/dont-stop-retrieving',
-  images: [{url: '../../../../assets/dsr-main.png', text: 'Main Page View'}, {url: '../../../../assets/dsr-single.png', text: 'Single Park View'}]
+  images: [{url: `${__dirname}/dsr-main.png`, text: 'Main Page View'}, {url: `${__dirname}/dsr-single.png`, text: 'Single Park View'}]
 },
 {
   name: 'Sports Messenger',
