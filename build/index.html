@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Keiran Beaton's Web Portfolio</title>
+    <script src="bundle.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link rel="stylesheet" href="bundle.css">
+  </head>
+  <body ng-app="portfolioApp">
+    <header>
+      <nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#/home"> Keiran Beaton's Web Portfolio </a>
+          </div>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#/home"><i class="fa fa-home"></i> Home </a></li>
+            <li><a href="#/portfolio"><i class="fa fa-folder-open"></i> Portfolio </a></li>
+            <li><a href="#/about"><i class="fa fa-male"></i> About Me </a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main ng-view></main>
+    <footer>
+        <div class="container">
+          <p class="pull-left kb-footer-text"> &copy; 2016 Keiran Beaton</p>
+          <p class="pull-right kb-footer-text">
+            find me on :
+            <a href="https://github.com/Keiranbeaton" class="kb-footer-text" target="_blank"><i class="fa fa-github-square fa-1x"></i></a>
+            <a href="https://www.linkedin.com/in/keiran-beaton-54772599" class="kb-footer-text" target="_blank"><i class="fa fa-linkedin-square fa-1x"></i></a>
+          </p>
+        </div>
+    </footer>
+  </body>
+</html>
