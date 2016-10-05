@@ -49,6 +49,10 @@ module.exports = {
         loader: 'file?name=img/[hash].[ext]'
       },
       {
+        test: /\.ico/,
+        loader: 'static-loader'
+      },
+      {
         test: /\.svg/,
         loader:'url?limit=10000&mimetype=image/svg+xml&name=fonts/[name].[ext]',
       },
