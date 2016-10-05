@@ -7,9 +7,6 @@ module.exports = function(app) {
       $rootScope.projects.forEach((obj) => {
         if (obj.displayName === routeName) {
           this.project = obj;
-          this.project.images.forEach((img) => {
-            img.url = require('!file?name=img/[hash].[ext]');
-          });
         }
       });
     };

@@ -7,7 +7,7 @@ module.exports = [{
   displayName: 'dont-stop-retrievin',
   url: 'https://dont-stop-retrieving.herokuapp.com/',
   githubUrl: 'https://github.com/Keiranbeaton/dont-stop-retrieving',
-  images: [{url: 'app/assets/dsr-main.png', text: 'Main Page View'}, {url: 'app/assets/dsr-single.png', text: 'Single Park View'}]
+  images: [{url: require('./dsr-main.png'), text: 'Main Page View'}, {url: require('./dsr-single.png'), text: 'Single Park View'}]
 },
 {
   name: 'Sports Messenger',
@@ -16,5 +16,5 @@ module.exports = [{
   displayName: 'sports-messenger',
   url: 'https://stormy-fjord-91599.herokuapp.com/#/home',
   githubUrl: 'https://github.com/sports-messenger/sports-messenger',
-  images: [{url: 'app/assets/sm-home.png', text: 'Main Page View'}, {url:'app/assets/sm-signin.png', text: 'Sign In View'}]
+  images: [{url: require('./sm-home.png'), text: 'Main Page View'}, {url: require('./sm-signin.png'), text: 'Sign In View'}]
 }];

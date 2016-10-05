@@ -7,11 +7,12 @@ const angular = require('angular');
 const angularRoute = require('angular-route');
 const portfolioApp = angular.module('portfolioApp', [angularRoute]);
 
-require('./components')(portfolioApp);
 
 portfolioApp.run(['$rootScope', function($rootScope) {
   $rootScope.projects = require('./assets/projects.js');
 }]);
+
+require('./components')(portfolioApp);
 
 portfolioApp.config(['$routeProvider', ($rp) => {
   $rp
@@ -26,7 +27,6 @@ portfolioApp.config(['$routeProvider', ($rp) => {
   })
   .when('/portfolio/:displayName',  {
     template: require('./html/projects.html'),
-    controller: 'ProjectsController'
   })
   .otherwise({
     redirectTo: 'home'
