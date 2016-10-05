@@ -46,17 +46,24 @@
   }
   div.home {
     padding-top: 25%;
-  }
-  section.about {
-    max-width: 90%;
+    margin-bottom: 50px;
   }
   div.about {
     margin-bottom: 70px;
   }
+  section.about {
+    max-width: 90%;
+  }
+  div.portfolio {
+    margin-bottom: 70px;
+  }
+  ul.portfolio {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
   article.projects {
     padding-left: 5%;
     padding-right: 5%;
-    border: none;
   }
   section.project-text {
     max-width: 100%;
@@ -65,7 +72,7 @@
     border: none;
   }
   section.project-info {
-    max-width: 50%;
+    max-width: 40%;
   }
 }
 
