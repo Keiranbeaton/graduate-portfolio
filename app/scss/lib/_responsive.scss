@@ -35,6 +35,9 @@
   div.portfolio > h1 {
     margin-bottom: 5%;
   }
+  div.projects > h1 {
+    margin-bottom: 5%;
+  }
 }
 
 @media (max-width: 414px) and (max-height: 736px) {
@@ -66,10 +69,15 @@
   }
 }
 
-@media (max-height:414px) and (max-width:736px) {
+@media (max-width:736px) and (max-height:414px) {
   .navbar {
     float: left;
     width: 100%;
+  }
+  .navbar-header {
+    margin-right: 0;
+    margin-left: 0;
+    float: left;
   }
   .navbar-right {
     float: right !important;
@@ -81,12 +89,34 @@
     float:left;
   }
   .navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
   div.home {
-    padding-top: 5%;
+    padding-top: 15%;
   }
   div.about {
     padding-top: 5%;
+    margin-bottom: 70px;
+  }
+  div.portfolio {
+    padding-top: 5%;
+    margin-bottom: 70px;
+  }
+  div.projects {
+    padding-top: 5%;
+    margin-bottom: 70px;
+  }
+  article.projects {
+    padding-left: 5%;
+    padding-right: 5%;
+    border: none;
+  }
+  section.project-text {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
   }
   section.project-info {
     max-width: 50%;
