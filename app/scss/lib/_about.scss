@@ -1,9 +1,11 @@
+div.about {
+  padding-top: 10%;
+}
+
 div.about > h1 {
   color: $kb-color1;
   text-align: center;
   font-family: 'PT Sans Narrow', sans-serif;
-  margin-top: -5%;
-  margin-bottom: 5%;
   font-size: 40px;
 }
 
@@ -14,7 +16,6 @@ article.about {
   background-color: $kb-text;
   border: solid medium $kb-color1;
   border-radius: 4px;
-  padding-top: 10px;
   color: $kb-text2;
   font-family: 'Noto Sans', sans-serif;
   text-align: center;
@@ -22,10 +23,11 @@ article.about {
 
 section.about {
   max-width: 35%;
+  height: 100%;
   margin-left: 5%;
   margin-right: 5%;
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
 }
 
 section.about > p {
@@ -35,7 +37,7 @@ section.about > p {
 img.about {
   max-width: 70%;
   max-height: 70%;
-  vertical-align: top;
+  vertical-align: middle;
   text-align: center;
 }
 

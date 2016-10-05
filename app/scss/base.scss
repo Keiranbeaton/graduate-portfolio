@@ -7,6 +7,7 @@
 @import "about";
 @import "projects";
 @import "portfolio";
+@import "responsive";
 
 html {
   height: 100%;
@@ -25,8 +26,4 @@ body {
 
 ul {
   list-style-type: none;
-}
-
-header {
-  margin-bottom: 15%;
 }

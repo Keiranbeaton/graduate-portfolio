@@ -1,7 +1,15 @@
-kb-home {
-  text-align: center;
+main {
+  min-height: 100%;
+  width: 100%;
+  margin-bottom: -50px;
+}
+
+div.home {
+  height: 100%;
   font-family: 'PT Sans Narrow', sans-serif;
   color: $kb-color2;
+  text-align: center;
+  padding-top: 15%;
 }
 
 div.home > h3 {
