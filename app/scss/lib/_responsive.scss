@@ -1,0 +1,131 @@
+@media (max-width: 768px) and (max-height: 1024px) {
+  img.about {
+    max-width: 100%;
+  }
+  div.home {
+    padding-top: 25%;
+  }
+  div.about {
+    padding-top: 25%;
+  }
+  div.about > h1 {
+    margin-bottom: 20%;
+  }
+  div.portfolio {
+    padding-top: 25%;
+  }
+  div.portfolio > h1 {
+    margin-bottom: 20%;
+  }
+}
+
+@media (max-width: 1024px) and (max-height: 768px) {
+  div.home {
+    padding-top: 15%;
+  }
+  div.about {
+    padding-top: 15%;
+  }
+  div.about > h1 {
+    margin-bottom: 5%;
+  }
+  div.portfolio {
+    padding-top: 15%;
+  }
+  div.portfolio > h1 {
+    margin-bottom: 5%;
+  }
+  div.projects > h1 {
+    margin-bottom: 5%;
+  }
+}
+
+@media (max-width: 414px) and (max-height: 736px) {
+  img.about {
+    max-width: 100%;
+  }
+  div.home {
+    padding-top: 25%;
+    margin-bottom: 50px;
+  }
+  div.about {
+    margin-bottom: 70px;
+  }
+  section.about {
+    max-width: 90%;
+  }
+  div.portfolio {
+    margin-bottom: 70px;
+  }
+  ul.portfolio {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  article.projects {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  section.project-text {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+  section.project-info {
+    max-width: 40%;
+  }
+}
+
+@media (max-width:736px) and (max-height:414px) {
+  .navbar {
+    float: left;
+    width: 100%;
+  }
+  .navbar-header {
+    margin-right: 0;
+    margin-left: 0;
+    float: left;
+  }
+  .navbar-right {
+    float: right !important;
+  }
+  .navbar-nav {
+    margin: 0;
+  }
+  .navbar-nav > li {
+    float:left;
+  }
+  .navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  div.home {
+    padding-top: 15%;
+  }
+  div.about {
+    padding-top: 5%;
+    margin-bottom: 70px;
+  }
+  div.portfolio {
+    padding-top: 5%;
+    margin-bottom: 70px;
+  }
+  div.projects {
+    padding-top: 5%;
+    margin-bottom: 70px;
+  }
+  article.projects {
+    padding-left: 5%;
+    padding-right: 5%;
+    border: none;
+  }
+  section.project-text {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+  section.project-info {
+    max-width: 50%;
+  }
+}

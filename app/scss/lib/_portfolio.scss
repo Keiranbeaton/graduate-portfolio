@@ -1,0 +1,60 @@
+div.portfolio {
+  padding-top: 10%;
+  text-align: center;
+}
+
+div.portfolio > h1 {
+  color: $kb-color1;
+  text-align: center;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 40px;
+}
+
+
+ul.portfolio {
+  background-color: $kb-text;
+  border: solid medium $kb-color1;
+  border-radius: 4px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: left;
+}
+
+ul.portfolio > a {
+  display: inline-block;
+  text-align: left;
+  margin: 2%;
+  vertical-align: middle;
+}
+
+ul.portfolio > a > li {
+  padding-top: 25px;
+  padding-right: 3px;
+  padding-left: 3px;
+  height: 125px;
+  width: 125px;
+  text-align: center;
+  border: solid thin $kb-color1;
+  border-radius: 4px;
+}
+
+a.more-to-come {
+  color: $kb-text;
+  background-color: $kb-color3;
+  text-decoration: none;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+a.sports-messenger {
+  color: $kb-sm-text;
+  background-color: $kb-sm-background;
+  font-family: Arial;
+}
+
+a.dont-stop-retrievin {
+  color: $kb-dsr-text;
+  background-color: $kb-dsr-background;
+  font-family: 'Audiowide', cursive;
+}

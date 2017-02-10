@@ -1,0 +1,56 @@
+div.about {
+  padding-top: 10%;
+}
+
+div.about > h1 {
+  color: $kb-color1;
+  text-align: center;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 40px;
+}
+
+article.about {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: $kb-text;
+  border: solid medium $kb-color1;
+  border-radius: 4px;
+  color: $kb-text2;
+  font-family: 'Noto Sans', sans-serif;
+  text-align: center;
+}
+
+section.about {
+  max-width: 35%;
+  height: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: inline-block;
+  vertical-align: middle;
+  padding-top: 10px;
+}
+
+section.about > p {
+  text-align: left;
+}
+
+img.about {
+  max-width: 70%;
+  max-height: 70%;
+  vertical-align: middle;
+  text-align: center;
+}
+
+a.about {
+  color: $kb-color1;
+}
+
+a.about:hover, a.about:focus {
+  color: $kb-color3;
+  text-decoration: none;
+}
+
+i.fa-envelope {
+  color: $kb-color1;
+}

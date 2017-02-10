@@ -1,0 +1,42 @@
+main {
+  min-height: 100%;
+  width: 100%;
+  margin-bottom: -50px;
+}
+
+div.home {
+  height: 100%;
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: $kb-color2;
+  text-align: center;
+  padding-top: 15%;
+}
+
+div.home > h3 {
+  color: $kb-text;
+  font-size: 40px;
+}
+
+div.home > h1 {
+  font-size: 60px;
+  color: $kb-color1;
+}
+
+ul.home {
+  padding: 0;
+  margin: 0;
+}
+
+ul.home > li {
+  display: inline-block;
+}
+
+ul.home > li > a {
+  color: $kb-text;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+ul.home > li > a:hover, ul.home > li > a:focus {
+  color: $kb-color1;
+}
