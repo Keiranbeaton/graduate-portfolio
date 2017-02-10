@@ -14,7 +14,8 @@ portfolioApp.run(['$rootScope', function($rootScope) {
 
 require('./components')(portfolioApp);
 
-portfolioApp.config(['$routeProvider', ($rp) => {
+portfolioApp.config(['$routeProvider', '$locationProvider', ($rp, $lp) => {
+  $lp.hashPrefix('');
   $rp
   .when('/home', {
     template: require('./html/home.html')
