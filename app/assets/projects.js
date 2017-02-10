@@ -17,4 +17,13 @@ module.exports = [{
   url: 'https://stormy-fjord-91599.herokuapp.com/#/home',
   githubUrl: 'https://github.com/sports-messenger/sports-messenger',
   images: [{url: require('./sm-home.png'), text: 'Main Page View'}, {url: require('./sm-signin.png'), text: 'Sign In View'}]
+},
+{
+  name: 'Cam\'s Big Idea',
+  title: 'A website that connects older professionals with businesses in need of their experience and expertise.',
+  description: 'This is a project I am working on for a friend. His idea is to create a site that will help professionals who no longer want to work full time but are still interested in lending their skills and knowledge to companies in a consulting role. They create a profile where they can list their experience, education and skills, along with how many hours a week they are looking to work. These profiles can then be accessed by companies via a search page, that will allow them ',
+  displayName: 'cams-big-idea',
+  url: 'https://cams-big-idea.herokuapp.com/',
+  githubUrl: 'https://github.com/Keiranbeaton/cams-big-idea',
+  images: [{url: require('./cbi-search.png'), text: 'Find Professionals View'}, {url: require('./cbi-edit-prof.png'), text: 'Edit Profile View'}]
 }];
