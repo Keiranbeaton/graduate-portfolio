@@ -7,7 +7,8 @@ module.exports = [{
   displayName: 'dont-stop-retrievin',
   url: 'https://dont-stop-retrieving.herokuapp.com/',
   githubUrl: 'https://github.com/Keiranbeaton/dont-stop-retrieving',
-  images: [{url: require('./dsr-main.png'), text: 'Main Page View'}, {url: require('./dsr-single.png'), text: 'Single Park View'}]
+  images: [{url: require('./dsr-main.png'), text: 'Main Page View'}, {url: require('./dsr-single.png'), text: 'Single Park View'}],
+  technology: ['jQuery', 'Firebase']
 },
 {
   name: 'Sports Messenger',
@@ -16,7 +17,8 @@ module.exports = [{
   displayName: 'sports-messenger',
   url: 'https://stormy-fjord-91599.herokuapp.com/#/home',
   githubUrl: 'https://github.com/sports-messenger/sports-messenger',
-  images: [{url: require('./sm-home.png'), text: 'Main Page View'}, {url: require('./sm-signin.png'), text: 'Sign In View'}]
+  images: [{url: require('./sm-home.png'), text: 'Main Page View'}, {url: require('./sm-signin.png'), text: 'Sign In View'}],
+  technology: ['Angular', 'Express']
 },
 {
   name: 'Cam\'s Big Idea',
@@ -25,5 +27,6 @@ module.exports = [{
   displayName: 'cams-big-idea',
   url: 'https://cams-big-idea.herokuapp.com/',
   githubUrl: 'https://github.com/Keiranbeaton/cams-big-idea',
-  images: [{url: require('./cbi-search.png'), text: 'Find Professionals View'}, {url: require('./cbi-edit-prof.png'), text: 'Edit Profile View'}]
+  images: [{url: require('./cbi-search.png'), text: 'Find Professionals View'}, {url: require('./cbi-edit-prof.png'), text: 'Edit Profile View'}],
+  technology: ['Angular', 'Express', 'MongoDB']
 }];
