@@ -20,6 +20,12 @@ ul.portfolio {
   padding-left: 10%;
   padding-right: 10%;
   text-align: left;
+  li.portfolio-header {
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: $kb-color1;
+  }
 }
 
 ul.portfolio > a {
@@ -62,4 +68,14 @@ a.dont-stop-retrievin {
 a.cams-big-idea {
   color: $kb-cbi-text;
   background-color: $kb-cbi-background;
+}
+
+a.basketball-bracket {
+  color: $kb-bb-text;
+  background-color: $kb-bb-background;
+}
+
+a.trade-machine {
+  color: $kb-tm-text;
+  background-color: $kb-tm-background;
 }
