@@ -1,5 +1,6 @@
 div.about {
   padding-top: 10%;
+  margin-bottom: 5%;
 }
 
 div.about > h1 {
@@ -12,7 +13,7 @@ div.about > h1 {
 article.about {
   width: 100%;
   height: 100%;
-  margin: 0;
+  margin: 0 0 15px 0;
   background-color: $kb-text;
   border: solid medium $kb-color1;
   border-radius: 4px;
