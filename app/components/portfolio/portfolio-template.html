@@ -1,6 +1,7 @@
 <div class="portfolio kb-view">
   <h1 class="portfolio">PORTFOLIO</h1>
   <ul class="portfolio">
+    <li class="portfolio-header">Click a project to learn more about it</li>
     <a ng-repeat="item in portCtrl.projectArray" href="#/portfolio/{{item.displayName}}" class="{{item.displayName}}">
       <li>
         <h4>{{item.name}}</h4>
@@ -8,7 +9,7 @@
     </a>
     <a class="more-to-come">
       <li>
-        <h4>And Much More To Come...</h4>
+        <h4>And Many More To Come</h4>
       </li>
     </a>
   </ul>
