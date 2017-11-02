@@ -1,43 +1,62 @@
 .navbar-default {
-  background-color: $kb-color3;
-  border-color: $kb-color1;
-}
-
-.navbar-default .navbar-brand {
-  color: $kb-color1;
-}
-
-.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-  color: $kb-text;
-}
-
-.navbar-default .navbar-nav > li > a {
-  color: $kb-color1;
-}
-
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: $kb-text;
+  background-color: $kb-primary;
+  border: none;
+  border-bottom: 1px solid $kb-color3;
+  p.navbar-brand {
+    color: $kb-color1;
+    font-family: $kb-display-font;
+    margin: 0;
+    &:hover {
+      color: $kb-color1;
+    }
+    &:focus {
+      color: $kb-color1;
+    }
+  }
+  a.navbar-brand {
+    color: $kb-text;
+    &:hover {
+      color: $kb-color3;
+    }
+    &:focus {
+      color: $kb-color3;
+    }
+  }
+  .navbar-nav {
+    li {
+      a {
+        color: $kb-text;
+        &:hover {
+          color: $kb-color3;
+        }
+        &:focus {
+          color: $kb-color3;
+        }
+      }
+    }
+    &.exterior-links {
+      margin-left: 30px;
+    }
+  }
 }
 
 footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  background-color: $kb-color3;
-  border: solid thin $kb-color1;
-  border-radius: 4px;
   min-height: 50px;
+  min-width: 100%;
+  bottom: 0;
+  background-color: $kb-primary;
+  border-top: 1px solid $kb-color3;
+  .container {
+    padding-top: 15px;
+    text-align: center;
+  }
 }
 
-footer .container {
-  padding-top: 15px;
-  text-align: center;
-}
 
 .kb-footer-text {
-  color: $kb-color1;
+  color: $kb-text;
 }
 
 a.kb-footer-text:hover, a.kb-footer-text:focus {
-  color: $kb-text;
+  color: $kb-color3;
 }

@@ -1,10 +1,10 @@
 div.about {
   padding-top: 10%;
-  margin-bottom: 5%;
+  margin-bottom: 70px;
 }
 
 div.about > h1 {
-  color: $kb-color1;
+  color: $kb-primary;
   text-align: center;
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 40px;
@@ -15,8 +15,8 @@ article.about {
   height: 100%;
   margin: 0 0 15px 0;
   background-color: $kb-text;
-  border: solid medium $kb-color1;
-  border-radius: 4px;
+  border-top: solid 4px $kb-color3;
+  border-bottom: solid 4px $kb-color3;
   color: $kb-text2;
   font-family: 'Noto Sans', sans-serif;
   text-align: center;
@@ -44,7 +44,7 @@ img.about {
 }
 
 a.about {
-  color: $kb-color1;
+  color: $kb-text2;
 }
 
 a.about:hover, a.about:focus {
@@ -53,5 +53,5 @@ a.about:hover, a.about:focus {
 }
 
 i.fa-envelope {
-  color: $kb-color1;
+  color: $kb-text2;
 }

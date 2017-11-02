@@ -11,23 +11,14 @@ module.exports = [{
   technology: ['jQuery', 'Firebase']
 },
 {
-  name: 'Sports Messenger',
-  title: 'A single page web app that allows residents of Seattle to find Seattle parks to play pick up sports at. We were working under time constraints so this app is still a work in progress.',
-  description: 'This page was the final group project I completed at Code Fellows. I was one of three people in the group, and worked mostly on Javascript, both frontend and backend. Our goal was to create an app that allowed users to search local parks based on their sporting facilities, and to rate and comment on these parks so other users would be able to find the level of competition they were looking for. We also implemented a sign up and sign in function so that only registered users could view the site, and leave comments and ratings.',
-  displayName: 'sports-messenger',
-  url: 'https://stormy-fjord-91599.herokuapp.com/#/home',
-  githubUrl: 'https://github.com/sports-messenger/sports-messenger',
-  images: [{url: require('./sm-home.png'), text: 'Main Page View'}, {url: require('./sm-signin.png'), text: 'Sign In View'}],
-  technology: ['Angular', 'Express']
-},
-{
   name: 'Cam\'s Big Idea',
   title: 'A website that connects older professionals with businesses in need of their experience and expertise.',
   description: 'This is a project I am working on for a friend. His idea is to create a site that will help professionals who no longer want to work full time but are still interested in lending their skills and knowledge to companies in a consulting role. They create a profile where they can list their experience, education and skills, along with how many hours a week they are looking to work. These profiles can then be accessed by companies via a search page, that will allow them ',
   displayName: 'cams-big-idea',
-  url: 'https://kb-cam-project.herokuapp.com/',
+  url: 'none',
   githubUrl: 'https://github.com/Keiranbeaton/cams-big-idea',
-  images: [{url: require('./cbi-search.png'), text: 'Find Professionals View'}, {url: require('./cbi-edit-prof.png'), text: 'Edit Profile View'}]
+  images: [{url: require('./cbi-search.png'), text: 'Find Professionals View'}, {url: require('./cbi-edit-prof.png'), text: 'Edit Profile View'}],
+  technology: ['AngularJS', 'Express', 'MongoDB']
 },
 {
   name: 'Keiran\'s Trade Machine',
@@ -36,7 +27,8 @@ module.exports = [{
   displayName: 'trade-machine',
   url: 'https://trade-machine-prototype.herokuapp.com',
   githubUrl: 'https://github.com/Keiranbeaton/trade-machine',
-  images: [{url: require('./tm-trade.png'), text: 'Pre-Trade View'}, {url: require('./tm-result.png'), text: 'Trade Results View'}]
+  images: [{url: require('./tm-trade.png'), text: 'Pre-Trade View'}, {url: require('./tm-result.png'), text: 'Trade Results View'}],
+  technology: ['AngularJS']
 },
 {
   name: 'Bracket Challenge',
@@ -45,5 +37,26 @@ module.exports = [{
   displayName: 'basketball-bracket',
   url: 'https://bracket-time-of-year.herokuapp.com',
   githubUrl: 'https://github.com/Keiranbeaton/basketball-bracket',
-  images: [{url: require('./bb-home.png'), text: 'Home View'}, {url: require('./bb-brackets.png'), text: 'Brackets View'}]
+  images: [{url: require('./bb-home.png'), text: 'Home View'}, {url: require('./bb-brackets.png'), text: 'Brackets View'}],
+  technology: ['AngularJS', 'Express', 'MongoDB']
+},
+{
+  name: 'The Good Ping Pong Boys',
+  title: 'Single Page application that keeps track of table tennis players overall win/loss records and scoring differentials, as well as their record and differential against each individual opponent they have faced.',
+  description: 'This single page web app serves as a leaderboard, and allows users to submit player and game information to keep the statistics updated. Please ignore my win/loss record. AngularJS, Express server, MongoDB.',
+  displayName: 'good-ping-pong-boys',
+  url: 'https://good-ping-pong-boys.herokuapp.com',
+  githubUrl: 'https://github.com/Keiranbeaton/good-ping-pong-boys',
+  images: [{url: require('./gpb-home.png'), text: 'Leaderboard'}, {url: require('./gpb-form.png'), text: 'Input Form'}],
+  technology: ['AngularJS', 'Express', 'MongoDB']
+},
+{
+  name: 'Search Demo',
+  title: 'A demo of a search tool that I created for a publishing company to show them how much easier their current system would be with a simple UI on top of it.',
+  description: 'This is a demo of a search tool that takes in any of several ISBN numbers associated with this publishe\'s books, then returns the specific ISBN number that they need from one of their partners, as well as some basic information to ensure that the ISBN they gave was for the correct book and edition. The data is hardcoded in to simulate a backend, and this application could easily be expanded to include a backend if necessary.',
+  displayName: 'search-tool',
+  url: 'https://isbn-search-demo.herokuapp.com',
+  githubUrl: 'https://github.com/Keiranbeaton/pearson-project',
+  images: [{url: require('./isbn-main.png'), text: 'Main Search Tool'}],
+  technology: ['AngularJS']
 }];
