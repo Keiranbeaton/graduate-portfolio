@@ -13,17 +13,17 @@ module.exports = [{
 {
   name: 'Cam\'s Big Idea',
   title: 'A website that connects older professionals with businesses in need of their experience and expertise.',
-  description: 'This is a project I am working on for a friend. His idea is to create a site that will help professionals who no longer want to work full time but are still interested in lending their skills and knowledge to companies in a consulting role. They create a profile where they can list their experience, education and skills, along with how many hours a week they are looking to work. These profiles can then be accessed by companies via a search page, that will allow them ',
+  description: 'This is a project I created for a friend\'s business idea. He wanted to create a site that would help older professionals who no longer want to work full time, but are still interested in lending their skills and knowledge to companies in a consulting role. They create a profile where they can list their experience, education and skills, along with how many hours a week they are looking to work. These profiles can then be accessed by companies via a search page, that will allow them to find someone who has the specific expertise they are in need of.',
   displayName: 'cams-big-idea',
   url: 'none',
   githubUrl: 'https://github.com/Keiranbeaton/cams-big-idea',
   images: [{url: require('./cbi-search.png'), text: 'Find Professionals View'}, {url: require('./cbi-edit-prof.png'), text: 'Edit Profile View'}],
-  technology: ['AngularJS', 'Express', 'MongoDB']
+  technology: ['AngularJS', 'Express', 'MongoDB', 'Node.js']
 },
 {
   name: 'Keiran\'s Trade Machine',
   title: 'A single page web application I made, similar to the NBA trade machine on ESPN.com.',
-  description: 'This is my own version of the NBA trade machine one espn.com. The teams and players are examples, as this was purely a frontend development project. I used AngularJS and a small amount of bootstrap to complete this, but the vast majority of the styling I did without the help of any libraries/frameworks. It was developed in a node environment, bundled using webpack, and is deployed on heroku.',
+  description: 'This is my own version of the NBA trade machine one espn.com. The teams and players are dummy data, as this was purely a frontend development project. The app allows you to check if a trade between 2, 3 or 4 teams would be legal based on the salaries of the players being traded, the salary cap figures of each team involved, and the current NBA salary cap rules. I used AngularJS and a small amount of bootstrap to complete this, but the vast majority of the styling I did without the help of any libraries/frameworks. It was developed in a node environment, bundled using webpack, and is deployed on heroku.',
   displayName: 'trade-machine',
   url: 'https://trade-machine-prototype.herokuapp.com',
   githubUrl: 'https://github.com/Keiranbeaton/trade-machine',
@@ -38,25 +38,25 @@ module.exports = [{
   url: 'https://bracket-time-of-year.herokuapp.com',
   githubUrl: 'https://github.com/Keiranbeaton/basketball-bracket',
   images: [{url: require('./bb-home.png'), text: 'Home View'}, {url: require('./bb-brackets.png'), text: 'Brackets View'}],
-  technology: ['AngularJS', 'Express', 'MongoDB']
+  technology: ['AngularJS', 'Express', 'MongoDB', 'Node.js']
 },
 {
   name: 'The Good Ping Pong Boys',
   title: 'Single Page application that keeps track of table tennis players overall win/loss records and scoring differentials, as well as their record and differential against each individual opponent they have faced.',
-  description: 'This single page web app serves as a leaderboard, and allows users to submit player and game information to keep the statistics updated. Please ignore my win/loss record. AngularJS, Express server, MongoDB.',
+  description: 'This single page web app serves as a leaderboard, and allows users to submit player and game information to keep the statistics updated. Please ignore my win/loss record, which is very bad. The app was created using AngularJS, Node.js, Express.js and MongoDB.',
   displayName: 'good-ping-pong-boys',
   url: 'https://good-ping-pong-boys.herokuapp.com',
   githubUrl: 'https://github.com/Keiranbeaton/good-ping-pong-boys',
   images: [{url: require('./gpb-home.png'), text: 'Leaderboard'}, {url: require('./gpb-form.png'), text: 'Input Form'}],
-  technology: ['AngularJS', 'Express', 'MongoDB']
+  technology: ['AngularJS', 'Express', 'MongoDB', 'Node.js']
 },
 {
   name: 'Search Demo',
   title: 'A demo of a search tool that I created for a publishing company to show them how much easier their current system would be with a simple UI on top of it.',
-  description: 'This is a demo of a search tool that takes in any of several ISBN numbers associated with this publishe\'s books, then returns the specific ISBN number that they need from one of their partners, as well as some basic information to ensure that the ISBN they gave was for the correct book and edition. The data is hardcoded in to simulate a backend, and this application could easily be expanded to include a backend if necessary.',
+  description: 'This is a demo of a search tool that takes in any of several ISBN numbers associated with this publishe\'s books, then returns the specific ISBN number that they need from one of their partners, as well as some basic information to ensure that the ISBN they gave was for the correct book. The list of books on which the searches are performed is saved on MongoDB, and can be updated by uploading a new excel file in the app.',
   displayName: 'search-tool',
   url: 'https://isbn-search-demo.herokuapp.com',
   githubUrl: 'https://github.com/Keiranbeaton/pearson-project',
   images: [{url: require('./isbn-main.png'), text: 'Main Search Tool'}],
-  technology: ['AngularJS']
+  technology: ['AngularJS', 'Express.js', 'MongoDB', 'Node.js']
 }];
